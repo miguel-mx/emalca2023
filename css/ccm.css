@@ -9,41 +9,43 @@ body, html {
     background-size: cover;
     position: relative;
     min-height: 550px;
-    padding: 72px;
+    padding: 16px;
     z-index: 0;
 }
 
 .hero-l {
-    margin-left: 180px;
+    margin-left: 12px;
+    margin-top: 200px;
 }
 
 .hero-title-blue {
     font-style: normal;
     font-weight: 900;
-    font-size: 135px;
-    line-height: 120px;
+    font-size: 50px;
+    line-height: 52px;
     color: #105AD3;
 }
 
 .hero-title-red {
     font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 32px;
+    line-height: 34px;
     color: #EF255A;
 }
 
 .hero-subtitle-red {
     font-weight: 400;
-    font-size: 40px;
-    line-height: 58px;
+    font-size: 24px;
+    line-height: 28px;
     color: #EF255A;
+    max-width: 70%;
 }
 
 .hero-location {
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
+    font-size: 16px;
+    line-height: 20px;
     color: #969696;
+    max-width: 70%;
 
 }
 
@@ -53,13 +55,34 @@ body, html {
 
 .hero-year {
     font-weight: 900;
-    font-size: 94px;
-    line-height: 124px;
+    font-size: 62px;
+    line-height: 64px;
     color: #969696;
     position: absolute;
     transform-origin: 0 0;
     transform: rotate(90deg);
-    left: 120px;
+    left: -40px;
+    top: 200px;
+}
+
+.btn {
+    padding: 0.5rem 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #105AD3;
+    border-color: #105AD3;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #0e4297;
+    border-color: #0e4297;
 }
 
 #infographic {
@@ -135,7 +158,7 @@ body, html {
 
 .abstract {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.02em;
     max-width: 720px;
@@ -155,6 +178,7 @@ body, html {
 .timeline-section {
     background-color: #F0F0F0;
     padding: 48px 24px;
+    overflow: scroll;
 }
 
 .timeline-container {
@@ -321,4 +345,80 @@ body, html {
         padding-right: 2rem;
         padding-left: 2rem;
     }
+}
+
+@media (min-width: 576px) {
+
+    .abstract {
+        font-size: 18px;
+    }
+
+    .hero-image {
+        min-height: 550px;
+    }
+
+    .hero-l {
+        margin-left: 180px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    .hero-image {
+        padding: 72px;
+    }
+
+    .hero-l {
+        margin-left: 180px;
+        margin-top: 0px;
+    }
+
+    .hero-title-blue {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 135px;
+        line-height: 120px;
+        color: #105AD3;
+    }
+
+    .hero-title-red {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #EF255A;
+    }
+
+    .hero-subtitle-red {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 58px;
+        color: #EF255A;
+    }
+
+    .hero-location {
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #969696;
+
+    }
+
+    .hero-r {
+        position: relative;
+    }
+
+    .hero-year {
+        font-weight: 900;
+        font-size: 94px;
+        line-height: 124px;
+        color: #969696;
+        position: absolute;
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        left: 120px;
+        top: auto;
+    }
+
 }
