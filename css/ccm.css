@@ -4,13 +4,19 @@ body, html {
 }
 
 .hero-image {
-    background-image: url("../img/BANNER_INICIO1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height: 550px;
-    padding: 16px;
-    z-index: 0;
+    /*background-image: url("../img/BANNER_INICIO1.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*position: relative;*/
+    /* min-height: 550px; */
+    /* padding: 16px; */
+    /*z-index: 0;*/
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    margin-top: 60px;
+    max-width: 100%;
 }
 
 .hero-l {
@@ -38,7 +44,7 @@ body, html {
     font-size: 24px;
     line-height: 28px;
     color: #EF255A;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .hero-location {
@@ -61,7 +67,7 @@ body, html {
     position: absolute;
     transform-origin: 0 0;
     transform: rotate(90deg);
-    left: -40px;
+    left: 12px;
     top: 200px;
 }
 
@@ -185,7 +191,7 @@ body, html {
     position: relative;
 
     min-height: 150px;
-    min-width: 700px;
+    /*min-width: 700px;*/
 }
 
 .timeline-container::after {
@@ -367,7 +373,14 @@ body, html {
 @media (min-width: 768px) {
 
     .hero-image {
+        background-image: url("../img/BANNER_INICIO1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height: 550px;
         padding: 72px;
+        z-index: 0;
+        margin-bottom: 0;
     }
 
     .hero-l {
