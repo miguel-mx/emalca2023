@@ -378,7 +378,7 @@ body, html {
         background-size: cover;
         position: relative;
         min-height: 550px;
-        padding: 72px;
+        padding: 72px 200px;
         z-index: 0;
         margin-bottom: 0;
     }
