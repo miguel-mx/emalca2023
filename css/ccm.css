@@ -93,7 +93,7 @@ body, html {
 
 #infographic {
     padding: 50px 0;
-    background-color: #F0F0F0;;
+    background-color: #F0F0F0;
 }
 
 .info-icon {
@@ -298,6 +298,11 @@ body, html {
 .text-blue {
     color: #105AD3;
     font-weight: 500;
+}
+
+#schedule {
+    padding: 72px 0;
+    background-color: #F0F0F0;
 }
 
 #footer {
