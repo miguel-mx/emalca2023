@@ -295,6 +295,10 @@ body, html {
     max-width: 720px;
 }
 
+.minw-960 {
+    min-width: 960px;
+}
+
 .text-blue {
     color: #105AD3;
     font-weight: 500;
