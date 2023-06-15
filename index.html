@@ -163,6 +163,127 @@
 
         <h1 class="mb-5">Horario</h1>
 
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-lun-tab" data-bs-toggle="tab"  data-bs-target="#nav-lunes" type="button" role="tab" aria-controls="nav-lunes" aria-selected="true"><span class="text-red fw-bold">Lunes</span></button>
+                <button class="nav-link" id="nav-mar-tab" data-bs-toggle="tab" data-bs-target="#nav-martes" type="button" role="tab" aria-controls="nav-martes" aria-selected="false"><span class="text-red fw-bold">Martes</span></button>
+                <button class="nav-link" id="nav-mier-tab" data-bs-toggle="tab" data-bs-target="#nav-miercoles" type="button" role="tab" aria-controls="nav-miercoles" aria-selected="false"><span class="text-red fw-bold">Miércoles</span></button>
+                <button class="nav-link" id="nav-jue-tab" data-bs-toggle="tab" data-bs-target="#nav-jueves" type="button" role="tab" aria-controls="nav-jueves" aria-selected="false"><span class="text-red fw-bold">Jueves</span></button>
+                <button class="nav-link" id="nav-vie-tab" data-bs-toggle="tab" data-bs-target="#nav-viernes" type="button" role="tab" aria-controls="nav-viernes" aria-selected="false"><span class="text-red fw-bold">Viernes</span></button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-lunes" role="tabpanel" aria-labelledby="nav-lun-tab">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row"><div class="d-flex flex-column text-blue"><div>09:30</div><div></div>12:00</div></th>
+                            <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 1</strong></div><div class="curso-title">Percolación en gráficas finitas e infinitas</div></div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><div class="d-flex flex-column text-blue"><div>12:15</div><div></div>13:45</div></th>
+                            <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 2</strong></div><div class="curso-title">Matemáticas aplicadas al análisis de datos genómicos</div></div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><div class="d-flex flex-column text-blue"><div>17:00</div><div></div>18:30</div></th>
+                            <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Ejercicios</strong></div><div class="curso-title">Curso 1</div></div></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="nav-martes" role="tabpanel" aria-labelledby="nav-mar-tab">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>09:30</div><div></div>12:00</div></th>
+                        <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 1</strong></div><div class="curso-title">Percolación en gráficas finitas e infinitas</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>12:15</div><div></div>13:45</div></th>
+                        <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 2</strong></div><div class="curso-title">Matemáticas aplicadas al análisis de datos genómicos</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>16:00</div><div></div>17:00</div></th>
+                        <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Conferencia 2</strong></div><div class="curso-title">Juegos Infinitos</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>17:00</div><div></div>18:30</div></th>
+                        <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Ejercicios</strong></div><div class="curso-title">Curso 2</div></div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="nav-miercoles" role="tabpanel" aria-labelledby="nav-mier-tab">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>09:30</div><div></div>12:00</div></th>
+                        <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 1</strong></div><div class="curso-title">Percolación en gráficas finitas e infinitas</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>12:15</div><div></div>13:45</div></th>
+                        <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 2</strong></div><div class="curso-title">Matemáticas aplicadas al análisis de datos genómicos</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>16:00</div><div></div>17:00</div></th>
+                        <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Conferencia 3</strong></div><div class="curso-title">Relaciones entre dinámica</div><div> unidimensional, teoría de números</div><div> y una noción de tamaño</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>17:00</div><div></div>18:30</div></th>
+                        <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Ejercicios</strong></div><div class="curso-title">Curso 1</div></div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="nav-jueves" role="tabpanel" aria-labelledby="nav-jue-tab">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>09:30</div><div></div>10:30</div></th>
+                        <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Conferencia 1</strong></div><div class="curso-title">Caminatas aleatorias en dimensiones altas</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>10:30</div><div></div>12:00</div></th>
+                        <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 1</strong></div><div class="curso-title">Percolación en gráficas finitas e infinitas</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>12:15</div><div></div>13:45</div></th>
+                        <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 2</strong></div><div class="curso-title">Matemáticas aplicadas al análisis de datos genómicos</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>16:00</div><div></div>17:00</div></th>
+                        <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Conferencia 4</strong></div><div class="curso-title">¿Qué es el análisis armónico?</div></div></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="d-flex flex-column text-blue"><div>17:00</div><div></div>18:30</div></th>
+                        <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Ejercicios</strong></div><div class="curso-title">Curso 2</div></div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="nav-viernes" role="tabpanel" aria-labelledby="nav-vie-tab">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row"><div class="d-flex flex-column text-blue"><div>09:30</div><div></div>12:00</div></th>
+                            <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 1</strong></div><div class="curso-title">Percolación en gráficas finitas e infinitas</div></div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><div class="d-flex flex-column text-blue"><div>12:15</div><div></div>13:45</div></th>
+                            <td colspan="5"><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Curso 2</strong></div><div class="curso-title">Matemáticas aplicadas al análisis de datos genómicos</div></div></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><div class="d-flex flex-column text-blue"><div>16:00</div><div></div></div></th>
+                            <td><div class="d-flex flex-column justify-content-center"><div class="curso"><strong>Libre</strong></div></div></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+<!--        <div class="my-5"></div>
         <div class="table-responsive-lg">
             <table class="table">
             <thead>
@@ -177,11 +298,15 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row"><div class="d-flex flex-column text-blue"><div>10:00</div><div></div>11:30</div></th>
+                    <th scope="row"><div class="d-flex flex-column text-blue"><div>09:30</div><div></div>10:30</div></th>
                     <td colspan="5"><div class="d-flex flex-column justify-content-center text-center"><div class="curso"><strong>Curso 1</strong></div><div class="curso-title">Percolación en gráficas finitas e infinitas</div></div></td>
                 </tr>
                 <tr>
-                    <th scope="row"><div class="d-flex flex-column text-blue"><div>12:00</div><div></div>13:30</div></th>
+                    <th scope="row"><div class="d-flex flex-column text-blue"><div>10:30</div><div></div>12:00</div></th>
+                    <td colspan="5"><div class="d-flex flex-column justify-content-center text-center"><div class="curso"><strong>Curso 1</strong></div><div class="curso-title">Percolación en gráficas finitas e infinitas</div></div></td>
+                </tr>
+                <tr>
+                    <th scope="row"><div class="d-flex flex-column text-blue"><div>12:15</div><div></div>13:45</div></th>
                     <td colspan="5"><div class="d-flex flex-column justify-content-center text-center"><div class="curso"><strong>Curso 2</strong></div><div class="curso-title">Matemáticas aplicadas al análisis de datos genómicos</div></div></td>
                 </tr>
                 <tr>
@@ -202,7 +327,7 @@
                 </tr>
             </tbody>
         </table>
-        </div>
+        </div>-->
 
     </div>
 
